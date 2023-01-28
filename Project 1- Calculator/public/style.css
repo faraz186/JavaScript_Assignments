@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./pngtree-cartoon-satellite-ruler-calculator-linear-education-background-picture-image_1458755.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: contrast(50px);
+    filter: blur(0.6px);
+    
+}
+
+#container{
+    border: 5px solid black;
+    width: 26%;
+    box-shadow: 2px 5px 60px 10px rgb(255, 192, 18);
+    height: 54vh;
+    margin-left: 35%;
+    margin-top: 8%;
+    
+}
+.upper{
+    background-color: rgb(73, 73, 73);
+    height: 12vh;
+}
+
+.upper h3{
+    color: white;
+    font-size: 20px;
+    margin-left: 16px;
+    padding-top: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.upper input{
+    float: right;
+    background-color: rgb(50, 17, 17);
+    height: 23px;
+    position: relative;
+    top: -26px;
+    left:-3%;
+}
+
+.values{
+    width: 24%;
+    margin-left: 10px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+}
+
+.down{
+    background-color: rgb(231, 231, 84);
+    height: 41vh;
+}
+
+.down button{
+    background-color: black;
+    color: white;
+    padding: 14px 28px 14px 28px;
+    margin-top: -1px;
+    border-radius: 5px;
+    margin-bottom: 9px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.down{
+    display: block;
+    padding: 8px;
+}
+
+button{
+    font-size: 26px;
+}
+
+button:hover{
+    background-color: rgb(46, 45, 45);
+    color: rgb(228, 205, 205);
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    margin-top: -80%;
+    margin-left: 60%;
+
+}
+
+.One{
+    position: relative;
+    left: -100%;
+    top: -5px;
+}
+.Two{
+    position: relative;
+    left: 5%;
+    top: -75px;
+    width: 150px !important;
+}
+.Three{
+    position: relative;
+    left: 5%;
+    top: -75px;
+    width: 150px !important;
+
+}
+.Four{
+    position: relative;
+    left: 5%;
+    top: -73px;
+    width: 150px !important;
+
+}
+.Five{
+    position: relative;
+    left: 5%;
+    top: -73px;
+    width: 150px !important;
+}
+
+.Six{
+    position: relative;
+    left: 5%;
+    top: -73px;
+    width: 150px !important;
+}
+

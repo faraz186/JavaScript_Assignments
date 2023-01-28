@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./Calculator_icon.svg-removebg-preview.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg_image">
+
+    </div>
+    
+    <div id="container">
+
+        <div class="upper">
+            <h3>Calculator</h3>
+            <input type="text" size="1">
+            <input type="text" size="1">
+            <input type="text" size="1">
+            <input type="text" size="1">
+        </div>
+
+        <input style="font-size: 42px;color:black;padding-left:7px" class="values" id="InpVal" type="text" size="25" maxlength="29" disabled>
+
+        <div class="down">
+            <button onclick="ClrScreen()">C</button>
+            <button onclick="BackWard()">B</button>
+            <br>
+            <button onclick="addVal(7)">7</button>
+            <button onclick="addVal(8)">8</button>
+            <button onclick="addVal(9)">9</button>
+            <br>
+            <button onclick="addVal(4)">4</button>
+            <button onclick="addVal(5)">5</button>
+            <button onclick="addVal(6)">6</button>
+            <br>
+            <button onclick="addVal(1)">1</button>
+            <button onclick="addVal(2)">2</button>
+            <button onclick="addVal(3)">3</button>
+            <br>
+            <button onclick="addVal(0)">0</button>
+            <button onclick="addVal(00)">00</button>
+            <button onclick="addVal('.')">.</button>
+
+            <div class="operations">
+            <button onclick="addVal('+')" class="One" >+</button>
+            <button onclick="addVal('-')" class="Two">-</button>
+            <button onclick="addVal('*')" class="Three">*</button>
+            <button onclick="addVal('/')" class="Four">/</button>
+            <button onclick="addVal('%')" class="Five">%</button>
+            <button onclick="Equal('=')" class="Six">=</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

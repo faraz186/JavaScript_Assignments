@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#images{
+    margin-left: 90px;
+    margin-top: 5%;
+    padding: 20px;
+}
