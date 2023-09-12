@@ -1731,3 +1731,100 @@
 // }
 
 // console.log(arr);
+
+// var arr = [];
+
+// console.log(arr);
+// arr[0] = prompt("Enter your value");
+// arr[1] = prompt("Enter your value");
+// arr[2] = prompt("Enter your value");
+// arr[3] = prompt("Enter your value");
+// arr[4] = prompt("Enter your value");
+// arr[5] = prompt("Enter your value");
+
+// console.log(arr.pop());
+
+// var arr = [12, 14];
+
+// var arr2 = ["faraz"];
+
+// var con = arr.concat(arr2);
+
+// console.log(con);
+
+// var arr = ["dog", "cat", "snake", "elephant", "frog", "tiger"];
+
+// console.log(arr);
+
+// var startingPosition = +prompt("Enter starting values");
+// var deletePosition = prompt("Enter delete position");
+// var lastPosition = +prompt("Enter ending values");
+// var addingElements2 = prompt("Enter adding elements");
+
+// var user2 = prompt("Enter values");
+// var user3 = prompt("Enter values");
+// var user4 = prompt("Enter values");
+// var user5 = prompt("Enter values");
+// var user6 = prompt("Enter values");
+
+// var copy = arr.slice(startingPosition, lastPosition);
+// arr.splice(startingPosition, deletePosition, addingElements, addingElements2);
+// console.log(copy);
+// arr.push(user, user1, user2, user3, user4, user5, user6);
+
+// arr.unshift(user, user1);
+// arr.shift();
+
+// var arr = ["this", "is", "my", "cat"];
+
+// var convert = arr.join(" ");
+
+// console.log(convert);
+
+// var device = [];
+
+// device.push("keyboard", "mouse", "printer", "monitor");
+
+// document.write("Devices: " + "<br>" + device + "<br>" + "<br>");
+
+// document.write(
+//   "<b>Out:</b>" +
+//     "<br>" +
+//     device[0] +
+//     "<br>" +
+//     "<b>Out:</b>" +
+//     "<br>" +
+//     device[1] +
+//     "<br>" +
+//     "<b>Out:</b>" +
+//     "<br>" +
+//     device[2] +
+//     "<br>" +
+//     "<b>Out:</b>" +
+//     "<br>" +
+//     device[3]
+// );
+
+// var mobiles = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// document.write(
+//   "<select>" +
+//     "<option>" +
+//     mobiles[0] +
+//     "</option>" +
+//     "<option>" +
+//     mobiles[1] +
+//     "</option>" +
+//     "<option>" +
+//     mobiles[2] +
+//     "</option>" +
+//     "<option>" +
+//     mobiles[3] +
+//     "</option>" +
+//     "<option>" +
+//     mobiles[4] +
+//     "</option>" +
+//     "<option>" +
+//     mobiles[5] +
+//     "</option>" +
+//     "</select>"
+// );
